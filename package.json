@@ -1,5 +1,5 @@
 {
-  "name": "express-es6",
+  "name": "express-jwt-auth",
   "version": "1.0.0",
   "description": "express.js server starter with ES6",
   "main": "app.js",
@@ -14,7 +14,12 @@
   "license": "ISC",
   "dependencies": {
     "config": "^3.3.6",
-    "express": "^4.17.1"
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.4",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.13.15",
